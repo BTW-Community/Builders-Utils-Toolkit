@@ -1,0 +1,32 @@
+bu.toolkit.general.tooltip.itemsAvailable=Items Available: %d
+bu.toolkit.general.tooltip.infoKey=Hold §e%s§f for more Information
+bu.toolkit.general.tooltip.useKey=§9Press [§7%s§9] to Use
+bu.toolkit.general.tooltip.mode=Current Mode: %s
+
+bu.toolkit.wand.selection=This wand will now use: %s (%d/%d)
+bu.toolkit.wand.tooltip.blockToUse=Current Block: %s (%d/%d)
+bu.toolkit.wand.tooltip.usageHelp2=§9Press [§7%s§9]§7+§9[§7%s§9] to Select a Block
+bu.toolkit.wand.tooltip.usageHelp3=§9Press [§7%s§9]§7+§9[§7%s§9] to Undo
+bu.toolkit.wand.tooltip.usageHelp4=§9Hold [§7%s§9] to Ignore Block Type
+bu.toolkit.wand.tooltip.blockLimit=§9%d Block Limit
+
+bu.toolkit.wand.mode.extrudeSimple=Extrude (Connected)
+bu.toolkit.wand.mode.extrudeLarge=Extrude (Large)
+
+bu.toolkit.wand.mode.fill=Fill
+
+bu.toolkit.trowel.tooltip.maxSize=§9%dx%dx%d Size limit
+bu.toolkit.trowel.tooltip.usageHelp1=§9Press [§7%s§9]§7+§9[§7%s§9] to Unselect
+
+
+item.bu.toolkit.items.ironWand.name=Iron Wand
+item.bu.toolkit.items.diamondWand.name=Diamond Wand
+item.bu.toolkit.items.sfsWand.name=Soulforged Steel Wand
+
+item.bu.toolkit.items.ironTrowel.name=Iron Trowel
+item.bu.toolkit.items.diamondTrowel.name=Diamond Trowel
+item.bu.toolkit.items.sfsTrowel.name=Soulforged Steel Trowel
+
+item.bu.toolkit.items.diamondNugget.name=Diamond Nugget
+
+bu.toolkit.keybind.modeSwitch=Cycle Tool Modes

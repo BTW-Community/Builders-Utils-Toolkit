@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.dravigen.bu_toolkit.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "client.GameSettingsMx",
+    "client.PlayerControllerMPMx",
+    "client.RenderGlobalMx",
+    "clientServer.ItemStackMx",
+    "server.NetServerHandlerMx"
+  ],
+  "client": [
+    "client.EntityClientPlayerMPMx",
+    "client.GuiIngameMx"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
