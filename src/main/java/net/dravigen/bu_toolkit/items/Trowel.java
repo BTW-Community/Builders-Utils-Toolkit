@@ -30,6 +30,13 @@ public class Trowel extends ToolItem implements CustomTooltip, CustomItemBehavio
 	}
 	
 	@Override
+	public void onCreated(ItemStack stack, World world, EntityPlayer player) {
+		super.onCreated(stack, world, player);
+		
+		stack.setTagCompound(new NBTTagCompound());
+	}
+	
+	@Override
 	public void onUpdate(ItemStack stack, World world, EntityPlayer player, int iInventorySlot,
 			boolean bIsHandHeldItem) {
 		if (stack != null) {

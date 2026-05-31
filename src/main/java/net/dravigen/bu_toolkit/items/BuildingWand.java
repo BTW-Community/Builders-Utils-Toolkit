@@ -50,6 +50,7 @@ public class BuildingWand extends ToolItem implements CustomTooltip, CustomItemW
 	
 	@Override
 	public void onCreated(ItemStack stack, World world, EntityPlayer player) {
+		stack.setTagCompound(new NBTTagCompound());
 		this.setMode(stack, 0);
 	}
 	

@@ -33,7 +33,9 @@ public abstract class EntityClientPlayerMPMx extends EntityPlayerSP {
 		Minecraft mc = this.mc;
 		
 		if (stack != null && stack.getItem() instanceof CustomItemWithModes) {
-			stack.getTagCompound().setInteger("modeChange", stack.getTagCompound().getInteger("modeChange") - 1);
+			if (stack.getTagCompound() != null) {
+				stack.getTagCompound().setInteger("modeChange", stack.getTagCompound().getInteger("modeChange") - 1);
+			}
 			
 			if (BU_Toolkit.modeSwitch.isPressed()) {
 				if (!isPressed) {
